@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Профиль | Telegram Stars</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://telegram.org/js/telegram-web-app.js"></script>
+</head>
+<body>
+    <div class="app-container">
+        <header class="app-header">
+            <div class="logo-container">
+                <img src="https://avatars.mds.yandex.net/i?id=91a6e51681f4e0445a2041875939e79792044d2108e3aa33-9181873-images-thumbs&n=13" 
+                     alt="Telegram" class="app-logo">
+                <h1 class="app-title">Профиль</h1>
+            </div>
+            <div class="user-container" id="user-container">
+                <span class="username" id="username"></span>
+                <img src="" alt="User Avatar" class="user-avatar" id="user-avatar">
+            </div>
+        </header>
+
+        <main class="app-main">
+            <section class="profile-section">
+                <div class="profile-info">
+                    <img src="" alt="User Avatar" class="profile-avatar" id="profile-avatar">
+                    <div>
+                        <h2 id="profile-name">Пользователь</h2>
+                        <p class="user-id" id="user-id">ID: загрузка...</p>
+                    </div>
+                </div>
+
+                <div class="balance-card">
+                    <h3>Баланс</h3>
+                    <p class="balance" id="balance">0.00 Stars</p>
+                    <button class="btn" id="deposit-btn">Пополнить</button>
+                </div>
+
+                <div class="wallet-card">
+                    <h3>Кошелек</h3>
+                    <p class="wallet" id="wallet">Не подключен</p>
+                    <button class="btn secondary" id="wallet-btn">Подключить</button>
+                </div>
+            </section>
+        </main>
+
+        <nav class="app-navigation">
+            <a href="index.html" class="nav-item" id="nav-main">
+                <span class="nav-icon">🏠</span>
+                <span>Главная</span>
+            </a>
+            <a href="profile.html" class="nav-item active" id="nav-profile">
+                <span class="nav-icon">👤</span>
+                <span>Профиль</span>
+            </a>
+        </nav>
+    </div>
+
+    <script src="js/user.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>
