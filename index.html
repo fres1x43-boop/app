@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Telegram Stars</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://telegram.org/js/telegram-web-app.js"></script>
+</head>
+<body>
+    <div class="app-container">
+        <header class="app-header">
+            <div class="logo-container">
+                <img src="https://avatars.mds.yandex.net/i?id=91a6e51681f4e0445a2041875939e79792044d2108e3aa33-9181873-images-thumbs&n=13" 
+                     alt="Telegram" class="app-logo">
+                <img src="https://i.playerok.com/J3ioUqCzOEH46im_WDnp9JJ8TdNU4GUqIkuxswpKp68/wm:0.8:soea:5:2:0.2/rs:fill:0:1000:0/g:no/quality:99/czM6Ly9wbGF5ZXJvay8vaW1hZ2VzLzFlZmJlZTkzLWEyNDctNjU2MC1mODQ4LWZlNjRjMWY3M2UzNS5qcGc.jpg" 
+                     alt="Stars" class="stars-logo">
+            </div>
+            <div class="user-container" id="user-container">
+                <span class="username" id="username">Загрузка...</span>
+                <img src="" alt="User Avatar" class="user-avatar" id="user-avatar">
+            </div>
+        </header>
+
+        <main class="app-main">
+            <section class="empty-state">
+                <img src="https://media.tenor.com/1Rg5QCNi1n4AAAAi/utya-duck-telegram-duck.gif" 
+                     alt="Нет кейсов" class="empty-state-gif">
+                <h2 class="empty-state-title">Кейсов пока нет</h2>
+                <p class="empty-state-text">Скоро здесь появятся новые кейсы с крутыми наградами!</p>
+                <p class="empty-state-subtext">Следите за обновлениями в нашем канале</p>
+                <a href="https://t.me/ripsocial" class="channel-link" target="_blank">@ripsocial</a>
+            </section>
+        </main>
+
+        <nav class="app-navigation">
+            <a href="index.html" class="nav-item active" id="nav-main">
+                <span class="nav-icon">🏠</span>
+                <span>Главная</span>
+            </a>
+            <a href="profile.html" class="nav-item" id="nav-profile">
+                <span class="nav-icon">👤</span>
+                <span>Профиль</span>
+            </a>
+        </nav>
+    </div>
+
+    <script src="js/user.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>
